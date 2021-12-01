@@ -1,0 +1,16 @@
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\bin\Debug\Spotify Checker.exe.config
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\bin\Debug\Spotify Checker.exe
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\bin\Debug\Spotify Checker.pdb
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify Checker.csproj.AssemblyReference.cache
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify_Checker.Properties.Resources.resources
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify Checker.csproj.GenerateResource.cache
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify Checker.csproj.CoreCompileInputs.cache
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify Checker.exe
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify Checker.pdb
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify_Checker.Form1.resources
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\bin\Debug\Leaf.xNet.dll
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\bin\Debug\Leaf.xNet.xml
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\bin\Debug\Spotify Checker.exe.manifest
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\bin\Debug\Spotify Checker.application
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify Checker.exe.manifest
+C:\Users\Sheyz\OneDrive\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets\Spotify Checker\Spotify Checker\obj\Debug\Spotify Checker.application

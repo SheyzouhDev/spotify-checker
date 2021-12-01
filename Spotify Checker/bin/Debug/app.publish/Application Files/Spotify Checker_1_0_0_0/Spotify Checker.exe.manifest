@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Spotify Checker.exe" version="1.0.0.0" publicKeyToken="bde46f6bd6539289" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="spotify.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Spotify Checker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Spotify Checker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Leaf.xNet.dll" size="132608">
+      <assemblyIdentity name="Leaf.xNet" version="5.2.10.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3prqEF8x81QcvFxGCwFg0GiaKHLYB0jKFFbm4iPwpKo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Spotify Checker.exe" size="106408">
+      <assemblyIdentity name="Spotify Checker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gp/3QVX4/kCwDak7WugjaL6IpoJZ//easWF+c2Px3Q4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Spotify Checker.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fzxBSr45tumrN8SNWWL0IeqRlxoh8+san/F4n6/GZJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="spotify.ico" size="12185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u9HS7GxD6a++fB4G8tmlpVRNB7fySmVP2J15dqBQKjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SHEYZ\Sheyz" issuerKeyHash="753ed7279ddd6e4f75ca8e59b6ed203c21638124" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JGUssqQ6U4UUjZ1t1oPrOomoBscLNd5yy6ZB1A1voIU=</DigestValue></Reference></SignedInfo><SignatureValue>NynqJ6+0RNjZg6W7JpuQ+11eiVS3/Os4OUJKSiPSvnjSYrTSmjR1xbukMhSVhIb/WeiMItvAUeWS26SpAFMvkl8QJXFc29gquUo8xxnOJrUEUZ+LMbpwG/pI4d4cbE8n8PsLuNSg0cHjvaCpHzsmfYYNCh+oX8GwgbGPT8oCaHw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2/09GFOawlUkqY4gawWTY0dc4fqG7ONbWvggvP53aIiUu2g22XwtRHcmG/skAwXf/tqt39ayw+VxSR1EoDxxFaQrYEhgu93BkX1uUjlcdsgRhElQr3rbKbelBSKDGv4MTa02fg4BiLr7G3S6cdoHrjpImaJ+FMdxP9K2gRGupEk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="85a06f0dd441a6cb72de350bc706a8893aeb83d66d9d8d1485533aa4b22c6524" Description="" Url=""><as:assemblyIdentity name="Spotify Checker.exe" version="1.0.0.0" publicKeyToken="bde46f6bd6539289" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SHEYZ\Sheyz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Umu/5ieRz0zGSgyIP5D6uUB+YhzdvR7vZMrDLeAlNYk=</DigestValue></Reference></SignedInfo><SignatureValue>pfwKAyjMfZGZo3erxAXr+D7UaJyzMqkZq4r/lx8EmbFNq40c1DtiWF3l8KysddM3StUnyBqskU7N1jgc6B61t/n6YaoboTTNpciGL6uAhQV/RFpwBIxm9dp6B/dMCcdFOMW5Cd7F0JQo+L8fiUwq41H14hpIm9+oDX03+WV7e6k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2/09GFOawlUkqY4gawWTY0dc4fqG7ONbWvggvP53aIiUu2g22XwtRHcmG/skAwXf/tqt39ayw+VxSR1EoDxxFaQrYEhgu93BkX1uUjlcdsgRhElQr3rbKbelBSKDGv4MTa02fg4BiLr7G3S6cdoHrjpImaJ+FMdxP9K2gRGupEk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQbW/a+TxTsKlD67REmgfWEjANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAUwBIAEUAWQBaAFwAUwBoAGUAeQB6MB4XDTIxMTEyODE3MzU0OVoXDTIyMTEyODIzMzU0OVowITEfMB0GA1UEAx4WAFMASABFAFkAWgBcAFMAaABlAHkAejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2/09GFOawlUkqY4gawWTY0dc4fqG7ONbWvggvP53aIiUu2g22XwtRHcmG/skAwXf/tqt39ayw+VxSR1EoDxxFaQrYEhgu93BkX1uUjlcdsgRhElQr3rbKbelBSKDGv4MTa02fg4BiLr7G3S6cdoHrjpImaJ+FMdxP9K2gRGupEkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBZ6SsVwF9Nl2eTvGg2twBdngc7WUF4wW0BpmZYgY32BTZQcz+s8G06dBaBbZgdZoV13ZtA3D2wh8koSjAEZ71bHixJE/JOCJdFHKDioO6pwLtglKX1/2dxdoTK4S9FqiWLkog6XuHXmarI3zqfUqphtnWf85prj1tR4l73SXOK9w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
